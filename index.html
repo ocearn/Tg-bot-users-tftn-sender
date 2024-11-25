@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Message Sender</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Custom Message Sender</h1>
+  
+  <!-- Token Input -->
+  <label for="botToken">Bot Token:</label>
+  <input type="text" id="botToken" placeholder="Enter your bot token" required>
+
+  <!-- Chat ID Input -->
+  <label for="chatIds">Chat IDs (comma-separated):</label>
+  <textarea id="chatIds" placeholder="Enter chat IDs separated by commas" required></textarea>
+
+  <!-- File Input -->
+  <label for="fileUpload">Upload Image/File (Optional):</label>
+  <input type="file" id="fileUpload" accept="image/*,application/pdf">
+
+  <!-- Custom Message Input -->
+  <label for="customMessage">Custom Message:</label>
+  <textarea id="customMessage" placeholder="Enter your custom message" required></textarea>
+
+  <!-- Submit Button -->
+  <button id="sendMessage">Send Message</button>
+</div><
+
+  <script src="script.js"></script>
+</body>
+</html>
